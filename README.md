@@ -130,7 +130,9 @@ npm start
         "ownerNotifyOnline": false,
         "selfbot": false,
         "useLimit": false,
-        "useCooldown": true
+        "useCooldown": true,
+        "autoReadMessage": true,
+        "autoReadStatus": true
     },
     "call": {
         "status": "reject" // reject, block, off
@@ -327,4 +329,4 @@ type ConfigCommands = {
 [issues-shield]: https://img.shields.io/github/issues/TobyG74/ChisatoBOT.svg?style=for-the-badge
 [issues-url]: https://github.com/TobyG74/ChisatoBOT/issues
 [license-shield]: https://img.shields.io/github/license/TobyG74/ChisatoBOT.svg?style=for-the-badge
-[license-url]: https://github.com/TobyG74/ChisatoBOT/blob/master/LICENSE
+[license-url]: https://github.com/TobyG74/ChisatoBOT/blob/master/LICENSE.md
