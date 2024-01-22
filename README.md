@@ -247,13 +247,6 @@ type ConfigCommands = {
                 <bold>Zennn08 (Aqul)</bold>
             </a>
         </td>
-        <td align="center" valign="top" width="14.28%">
-            <a href="https://github.com/alphanum404">
-                <img src="https://avatars.githubusercontent.com/u/50858033?v=4?s=100" width="100px">
-                <br>
-                <bold>Alphanum404</bold>
-            </a>
-        </td>
     </tr>
     <tr>
         <td align="center" valign="top" width="14.28%">
@@ -284,11 +277,20 @@ type ConfigCommands = {
                 <bold>xbnfz01</bold>
             </a>
         </td>
+    </tr>
+    <tr>
         <td align="center" valign="top" width="14.28%">
             <a href="https://github.com/faizbastomi">
                 <img src="https://avatars.githubusercontent.com/u/64179402?v=4?s=100" width="100px">
                 <br>
                 <bold>Faiz Bastomi</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/alphanum404">
+                <img src="https://avatars.githubusercontent.com/u/50858033?v=4?s=100" width="100px">
+                <br>
+                <bold>Alphanum404</bold>
             </a>
         </td>
     </tr>
