@@ -1,271 +1,328 @@
 <p align="center">
-<img src="https://media.giphy.com/media/4dM1U76aAQ3dbE6bc3/giphy.gif" alt="GIF" width="128" height="128"/>
+    <img src="media/chisato.png" width="250" alt="logo">
 </p>
+<h1 align="center">ChisatoBOT</h1>
+<h3 align="center">This bot uses a library from Baileys</h3>
+<h3 align="center">Give this repository a ⭐ if you like it</h3>
+
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/badge/JOIN WITH OUR COMMUNITY-FFFFFF?style=for-the-badge&logo=whatsapp&logoColor=0FB830"><a src="https://whatsapp.com/channel/0029VaGQpAOKwEfkKNh6Z0X3"></a>
+</div>
+
+## Description
+
 <p align="center">
-<a href="#"><img title="ELAINA BOT" src="https://img.shields.io/badge/ELAINA BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+    <img src="media/terminal.png" width="400" alt="logo">
 </p>
-<p align="center">
-<a href="https://github.com/TobyG74"><img title="Author" src="https://img.shields.io/badge/Author-Tobz-orange.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/TobyG74/followers"><img title="Followers" src="https://img.shields.io/github/followers/TobyG74?color=blue&style=flat-square"></a>
-<a href="https://github.com/TobyG74/megumikato2/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TobyG74/ElainaBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/TobyG74/megumikato2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TobyG74/ElainaBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/TobyG74/megumikato2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TobyG74/ElainaBOT?label=Watchers&color=blue&style=flat-square"></a>
-</p>
-<p align='center'>
-   <a href="https://twitter.com/tobz2k19"><img height="30" src="https://github.com/TobyG74/TobyG74/blob/main/twitter.png?raw=true"></a>&nbsp;&nbsp;
-   <a href="https://instagram.com/tobz2k19"><img height="30" src="https://github.com/TobyG74/TobyG74/blob/main/instagram.jpg?raw=true"></a>&nbsp;&nbsp;
-   <a href="https://www.facebook.com/tobz2k19"><img height="30" src="https://github.com/TobyG74/TobyG74/blob/main/facebook.png?raw=true"></a>
-</P>
 
-# Whatsapp-BOT
+-   Chisato is a WhatsApp bot with various functions
+-   There are various features available on Chisato BOT
+-   ChisatoBOT has a beautiful terminal logger
 
-## Information
+## Table of Contents
 
-#### This script is open to anyone! If you want to add commands, please contribute / pull request! Buying and selling scripts is prohibited!
-- [Cara Penginstallan Bot](https://youtu.be/41Xj_Kg4DCM)
-- Change [ownerNumber](https://github.com/TobyG74/ElainaBOT/blob/df5caa20c74a1e76345a9664baa8dbc1b198da21/tobz.js#L248) in tobz.js to be your number
-ownerNumber = "6213xxxxxx@c.us"
-- Change [adminNumber](https://github.com/TobyG74/ElainaBOT/blob/main/lib/database/admin.json#L1) in admin.json to be your number
-[] -> ["62813xxxxxx@c.us"]
-
-## Contact
-
-If you find some bugs please contact the WhatsApp number on Contact
-
-- [TELEGRAM](https://t.me/tobz2k19)
-- [WHATSAPP](https://wa.me/6281311850715)
-- [MY BOT](wa.me/447418349954)
-- [WHATSAPP GROUP](https://chat.whatsapp.com/IgfjcaGBMNXG1bHp3sFIOE)
-
-## APIKEY
-Open setting.js then edit & paste it in YOUR_APIKEY
-- [VHTEAR](https://api.vhtear.com)
-- [MELODICXT](http://api-melodicxt-2.herokuapp.com/)
-- [TOBZAPI](https://tobz-api.herokuapp.com)
-
-Apikey Location
-- [SETTING](https://github.com/TobyG74/ElainaBOT/blob/main/lib/database/setting.json)
-
-## Donate
-- [Saweria](https://saweria.co/ItzTobz)
-- [Dana](https://link.dana.id/qr/17mlqta)
+-   [Getting Started](#getting-started)
+-   [Build With](#build_with)
+-   [Installation](#installation)
+-   [Documentation](#documentation)
+-   [Community](#community)
 
 ## Getting Started
 
-### This project require NodeJS v14.
-This is a Bot Group Type, so you have to enter the bot into a group in order to fully use the command!
+What is needed to run this project :
 
-### FFMPEG
-- [DOWNLOAD](https://ffmpeg.org/)
-- [TUTORIAL](https://youtu.be/04Gf6TEnmjk)
+-   [GIT](https://git-scm.com/downloads)
+-   [NodeJS version 16+](https://nodejs.org/en/)
+-   [FFMPEG](https://ffmpeg.org/download.html)
+-   [WEBP](https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html)
+-   You need a Chinese Proxy for the Image to Anime feature
+-   You need the [OCR Space API KEY](https://ocr.space) to run the OCR feature
 
-### IMAGEMAGICK
-- [DOWNLOAD](https://imagemagick.org/script/download.php)
-Note : Kalo Mau Work, Centang Kolom 1,2,3,5,6
+If you have problems, you can [open an issue](https://github.com/TobyG74/ChisatoBOT/issues) or join the community to ask questions about it
 
-### Install
-Clone this project
+### Setup Your Mongodb
 
-```bash
-> git clone https://github.com/TobyG74/ElainaBOT
-> cd ElainaBOT
+-   Login to the [MongoDB](https://account.mongodb.com/account/login) website
+-   Create your Database
+-   Next, select the Database that you created again or click (Database > Connect > Drivers > Copy Your Application Code)
+-   Paste the mongodb code that you copied into the .env file and don't forget to change `<password>` to your database password
+
+### Setup Your `.env` File
+
+-   Edit your [.env](https://github.com/TobyG74/ChisatoBOT/blob/master/.env.example) file
+-   Rename `.env.example` to `.env`
+
+## Built With
+
+![TypeScript](https://img.shields.io/badge/TypeScript-2F6BA3?style=for-the-badge&logo=typescript&logoColor=FFFFFF)
+![Prisma](https://img.shields.io/badge/prisma-29245c?style=for-the-badge&logo=prisma&logoColor=F7DF1E)
+![MongoDB](https://img.shields.io/badge/MongoDB-FFFFFF?style=for-the-badge&logo=mongodb&logoColor=2FA331)
+
+## Installation
+
+### Clone this Project
+
+```
+git clone https://github.com/TobyG74/ChisatoBOT
+cd ChisatoBOT
 ```
 
-Install the dependencies:
+### Install Dependencies
 
-```bash
-> npm install
-> npm install -g sharp
-> npm install -g pm2
+```
+npm install
 ```
 
-### Usage
-1. run the Whatsapp bot
+### Setup Prisma
 
-```bash
-> npm start
 ```
-or
-```bash
-> pm2 start run.js
-> pm2 monit
+npx prisma db push
 ```
 
-2. stop the Whatsapp bot
+### Build Project
 
-for npm :
-```bash
-> ctrl + c
 ```
-for pm2 :
-```bash
-> pm2 stop
+npm run build
 ```
 
-after running it you need to scan the qr
+### Run Project
 
-### License
+-   Run with PM2
 
-- [Apache License 2.0](https://github.com/TobyG74/ElainaBOT/blob/main/LICENSE)
+```
+npm run pm2:start
+```
 
----
-## 120+ Feature
+-   Without PM2
 
-| Sticker Creator |              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        | Sticker With Image              |
-|       ✅        | Sticker With Gif                |
-|       ✅        | Sticker With Image Url          |                   |
-|       ✅        | Sticker With Gif Url            |
-|       ✅        | Sticker With Fire Gif           |
-|       ✅        | Sticker With Lightning Gif      |
-|       ✅        | Image To Sticker.               |
-|       ✅        | Text To Picture                 |
-|       ✅        | Text To Gif                     |
-
-|.  Downloader    |              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        |  YouTube Video/Audio Downloader |
-|       ✅        |  Doujin Downloader              |
-|       ✅        |  XVideos Downloader             |
-|       ✅        | Instagram Video/Image Downloader|
-|       ✅        |  Facebook Video Downloader      |
-|       ✅        |  Tiktok Downloader              |
-|       ✅        |  Twitter Downloader             |
-|       ✅        |  Smule Mp3 Downloader           |
-|       ✅        |  Starmaker Video Downloader     |
-|       ✅        |  Xnxx Video Downloader          |
-|       ✅        |  Joox Downloader                |
-|       ✅        |  Play Music                     |
-
-|      Prayer     |             Feature             |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Jadwalsholat                  |
-|       ✅        |   List Daerah                   |
-|       ✅        |   Al-Quran                      |
-|       ✅        |   Infosurah                     |
-|       ✅        |   List Surah                    |
-|       ✅        |   Tafsir Ayat                   |
-
-|  Kerang Ajaib   |             Feature             |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Apakah                        |
-|       ✅        |   Bisakah                       |
-|       ✅        |   Rate                          |
-|       ✅        |   Kapankah                      |
-
-|  Tebak-Tebakan  |              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Family100                     |
-|       ✅        |   Tebak Gambar                  |
-|       ✅        |   Cak Lontong                   |
-
-|      Media      |             Feature             |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Get a random meme             |
-|       ✅        |   Text to speech                |
-|       ✅        |   Get a random bokep.           |
-|       ✅        |   Get a random waifu images     |
-|       ✅        |   Get a random loli images      |
-|       ✅        |   Get a random neko images      |
-|       ✅        |   Get a random hentai images    |
-|       ✅        |   Get a random nsfw images      |
-|       ✅        |   Get a random quotes           |
-|       ✅        |   Get a random anime quotes     |
-|       ✅        |   Get info gempa from BMKG      |
-|       ✅        |   Weather's report's            |
-|       ✅        |   Wikipedia                     |
-|       ✅        |   Youtube                       |
-|       ✅        |   Google                        |
-|       ✅        |   Pinterest                     |
-|       ✅        |   Anime searcher                |
-|       ✅        |   Google Image                  |
-|       ✅        |   Couple Fortune Telling        |
-|       ✅        |   Chord                         |
-|       ✅        |   Subreddit                     |
-|       ✅        |   Lyrics                        |
-|       ✅        |   Textmaker                     |
-|       ✅        |   Instagram Stalk               |
-|       ✅        |   Tiktok Stalk                  |
-|       ✅        |   Smule Stalk                   |
-|       ✅        |   Write in Image                |
-|       ✅        |   Write in Paper                |
-|       ✅        |   Weather Information           |
-|       ✅        |   Hero Mobile Legends           |
-|       ✅        |   Zodiac Information            |
-|       ✅        |   Nomor Hoki                    |
-|       ✅        |   Get a random cat images       |
-|       ✅        |   Get a random dog images       |
-|      And        |   Others...                     |
-
-
-|   Group Only    |              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Promote User                  |
-|       ✅        |   Demote User                   |
-|       ✅        |   Kick User                     |
-|       ✅        |   Add User                      |
-|       ✅        |   Mention All User              |
-|       ✅        |   Get link group                |
-|       ✅        |   Get Admin list                |
-|       ✅        |   Listblock                     |
-|       ✅        |   Listbanned                    |
-|       ✅        |   Listgroup                     |
-|       ✅        |   Get Elaina Admin list         |
-|       ✅        |   Get owner group               |
-|       ✅        |   Get group info                |
-|       ✅        |   enable or disable nsfw command|
-|       ✅        |   enable or disable simi command|
-|       ✅        |enable or disable welcome feature|
-|       ✅        |   enable or disable left feature|
-|       ✅        |   enable or disable antilink    |
-|       ✅        |   enable or disable antibadword |
-
-| Admin Bot Only  |              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Banned                        |
-|       ✅        |   Unbanned                      |
-|       ✅        |   Mute                          |
-|       ✅        |   Unmute                        |
-
-| Owner Group Only|              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Kick All Member Group         |
-
-| Owner Bot Only  |              Feature            |
-| :-------------: | :-----------------------------: |
-|       ✅        |   Leave all group               |
-|       ✅        |   Clear all message             |
-|       ✅        |   Broadcast                     |
-|       ✅        |   Getses                        |
-|       ✅        |   Banchat                       |
-|       ✅        |   Maintenance                   |
-|       ✅        |   Add Admin Elaina              |
-|       ✅        |   Del Admin Elaina              |
-|       ✅        |   Block                         |
-|       ✅        |   Unblock                       |
-|       ✅        |   Join Group                    |
+```
+npm start
+```
 
 ---
 
-## Troubleshooting
-Make sure all the necessary dependencies are installed: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+## Documentation
 
-Fix Stuck on linux, install google chrome stable: 
-```bash
-> wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-> sudo apt install ./google-chrome-stable_current_amd64.deb
+### Configuration File [config.json](https://github.com/TobyG74/ChisatoBOT/blob/master/config.json)
+
+```json
+{
+    "ownerNumber": ["YOUR_NUMBER"],
+    "teamNumber": [],
+    "timeZone": "Asia/Jakarta",
+    "prefix": ".",
+    "maintenance": [], // List Maintenance Command
+    "stickers": {
+        "author": "Instagram : ini.tobz",
+        "packname": "Made by ChisatoBOT"
+    },
+    "settings": {
+        "ownerNotifyOnline": false,
+        "selfbot": false,
+        "useLimit": false,
+        "useCooldown": true
+    },
+    "call": {
+        "status": "reject" // reject, block, off
+    },
+    "limit": {
+        "command": 30
+    },
+    "cfonts": {
+        "font": "block",
+        "align": "center",
+        "colors": ["green", "yellow"],
+        "background": "transparent",
+        "letterSpacing": 0,
+        "lineHeight": 0,
+        "space": true,
+        "maxLength": "0",
+        "gradient": false,
+        "independentGradient": false,
+        "transitionGradient": false,
+        "env": "node"
+    }
+}
 ```
 
-## 🙏 Big Special Thanks To
+### Config Commands
 
-* [`MHRTZ`](https://github.com/MRHRTZ) 
-* [`OpenWA/WA-Automate`](https://github.com/open-wa/wa-automate-nodejs) 
-* [`YogaSakti`](https://github.com/YogaSakti/imageToSticker) 
-* [`MhankBarBar`](https://github.com/MhankBarBar/whatsapp-bot) 
-* [`ItzNgga`](https://github.com/ItzNgga/wa-bot.js) 
-* [`Gimenz`](https://github.com/Gimenz) 
-* [`ArugaZ`](https://github.com/ArugaZ/whatsapp-bot) 
+-   Command configuration that you can use
 
+```ts
+type ConfigCommands = {
+    name: string;
+    alias: string[];
+    usage: string;
+    category: string;
+    description: string;
+    cooldown?: number; // in seconds
+    limit?: number;
+    example?: string;
+    isOwner?: boolean;
+    isTeam?: boolean;
+    isPrivate?: boolean;
+    isPremium?: boolean;
+    isGroup?: boolean;
+    isGroupAdmin?: boolean;
+    isGroupOwner?: boolean;
+    isBotAdmin?: boolean;
+    isProcess?: boolean;
+    run: (args: CommandsObject) => unknown;
+};
+```
+
+### Maintenance Command
+
+-   To change the command to maintenance status, just type : `.commandname -m`
+-   To change it again, type the same command
+
+### Log Messages for those affected by Banned or Blocked
+
+<img src="media/banned.png" width="400" alt="logo">
+
+### Log Messages for Groups that are Muted
+
+<img src="media/mute.png" width="400" alt="logo">
+
+### Log Messages for Commands in Group Chat
+
+<img src="media/group.png" width="400" alt="logo">
+
+### Log Messages for Commands in Private Chat
+
+<img src="media/private.png" width="400" alt="logo">
+
+### Log Messages for Regular Messages
+
+<img src="media/chat.png" width="400" alt="logo">
+
+### Log Messages for Eval & Exec Message
+
+<img src="media/evalexec.png" width="400" alt="logo">
+
+---
+
+## Community
+
+-   Special thanks to the bot community below who helped develop ChisatoBOT
+
+<table>
+    <tr>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/TobyG74">
+                <img src="https://avatars.githubusercontent.com/u/32604979?v=4?s=100" width="100px"/>
+                <br>
+                <bold>TobyG74</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/arugaz">
+                <img src="https://avatars.githubusercontent.com/u/53950128?v=4?s=100" width="100px">
+                <br>
+                <bold>Arugaz</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/nugraizy">
+                <img src="https://avatars.githubusercontent.com/u/69896924?v=4?s=100" width="100px">
+                <br>
+                <bold>Nugraizy</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/zennn08">
+                <img src="https://avatars.githubusercontent.com/u/75623219?v=4?s=100" width="100px">
+                <br>
+                <bold>Zennn08 (Aqul)</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/alphanum404">
+                <img src="https://avatars.githubusercontent.com/u/50858033?v=4?s=100" width="100px">
+                <br>
+                <bold>Alphanum404</bold>
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/mrhrtz">
+                <img src="https://avatars.githubusercontent.com/u/52845610?v=4?s=100" width="100px">
+                <br>
+                <bold>MRHRTZ</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/mhankbarbar">
+                <img src="https://avatars.githubusercontent.com/u/55822959?v=4?s=100" width="100px">
+                <br>
+                <bold>Mhankbarbar</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/itzngga">
+                <img src="https://avatars.githubusercontent.com/u/29621457?v=4?s=100" width="100px">
+                <br>
+                <bold>ItzNgga</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/itzngga">
+                <img src="https://avatars.githubusercontent.com/u/88994722?v=4?s=100" width="100px">
+                <br>
+                <bold>xbnfz01</bold>
+            </a>
+        </td>
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/faizbastomi">
+                <img src="https://avatars.githubusercontent.com/u/64179402?v=4?s=100" width="100px">
+                <br>
+                <bold>Faiz Bastomi</bold>
+            </a>
+        </td>
+    </tr>
+</table>
+
+-   Special Thanks for My Teams
+
+<table>
+  <tr>
+    <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/114492712?s=100&v=4" width="100px" height="100px"/>
+        <br>
+        <a href="https://github.com/https://github.com/Hidden-Finder">
+            <bold>Hidden-Finder</bold>
+        </a>
+    </td>
+    <td align="center">
+        <img src="https://avatars.githubusercontent.com/u/123545858?s=100&v=4" width="100px" height="100px">
+        <br>
+        <a href="https://github.com/botw3a">
+            <bold>BOTWEA</bold>
+        </a>
+    </td>
+   </tr> 
+  </tr>
+</table>
+
+[contributors-shield]: https://img.shields.io/github/contributors/TobyG74/ChisatoBOT.svg?style=for-the-badge
+[contributors-url]: https://github.com/TobyG74/ChisatoBOT/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TobyG74/ChisatoBOT.svg?style=for-the-badge
+[forks-url]: https://github.com/TobyG74/ChisatoBOT/network/members
+[stars-shield]: https://img.shields.io/github/stars/TobyG74/ChisatoBOT.svg?style=for-the-badge
+[stars-url]: https://github.com/TobyG74/ChisatoBOT/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TobyG74/ChisatoBOT.svg?style=for-the-badge
+[issues-url]: https://github.com/TobyG74/ChisatoBOT/issues
+[license-shield]: https://img.shields.io/github/license/TobyG74/ChisatoBOT.svg?style=for-the-badge
+[license-url]: https://github.com/TobyG74/ChisatoBOT/blob/master/LICENSE.md
