@@ -11,7 +11,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GPL3 License][license-shield]][license-url]
 
 </div>
 
@@ -327,4 +327,4 @@ type ConfigCommands = {
 [issues-shield]: https://img.shields.io/github/issues/TobyG74/ChisatoBOT.svg?style=for-the-badge
 [issues-url]: https://github.com/TobyG74/ChisatoBOT/issues
 [license-shield]: https://img.shields.io/github/license/TobyG74/ChisatoBOT.svg?style=for-the-badge
-[license-url]: https://github.com/TobyG74/ChisatoBOT/blob/master/LICENSE.md
+[license-url]: https://github.com/TobyG74/ChisatoBOT/blob/master/LICENSE
