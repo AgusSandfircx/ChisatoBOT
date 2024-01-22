@@ -130,7 +130,9 @@ npm start
         "ownerNotifyOnline": false,
         "selfbot": false,
         "useLimit": false,
-        "useCooldown": true
+        "useCooldown": true,
+        "autoReadMessage": true,
+        "autoReadStatus": true
     },
     "call": {
         "status": "reject" // reject, block, off
