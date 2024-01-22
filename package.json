@@ -21,7 +21,6 @@
         "awesome-phonenumber": "^3.2.0",
         "axios": "^1.5.2",
         "baileys": "github:tobyg74/baileys",
-        "canvas": "^2.11.2",
         "cfonts": "^3.1.1",
         "cheerio": "^1.0.0-rc.12",
         "cli-color": "^2.0.3",

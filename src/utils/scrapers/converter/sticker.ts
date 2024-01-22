@@ -1,5 +1,3 @@
-import Canvas from "canvas";
-import GIFEncoder from "gifencoder";
 import petPetGif from "pet-pet-gif";
 import fs from "fs";
 import Axios from "axios";
@@ -15,48 +13,6 @@ export class Sticker {
             return result;
         } catch (e) {
             return e;
-        }
-    };
-
-    static Trigger = async (image: Buffer) => {
-        try {
-            const TRIGGERED = fs.readFileSync("./media/trigger.png");
-            const Base = await Canvas.loadImage(TRIGGERED);
-            const Image = await Canvas.loadImage(image);
-            const GIF = new GIFEncoder(256, 310);
-            GIF.start();
-            GIF.setRepeat(0);
-            GIF.setDelay(15);
-            const canvas = Canvas.createCanvas(256, 310);
-            const ctx = canvas.getContext("2d");
-            const BR = 30;
-            const LR = 20;
-            let i = 0;
-            while (i < 9) {
-                ctx.clearRect(0, 0, 256, 310);
-                ctx.drawImage(
-                    Image,
-                    Math.floor(Math.random() * BR) - BR,
-                    Math.floor(Math.random() * BR) - BR,
-                    256 + BR,
-                    310 - 54 + BR
-                );
-                ctx.fillStyle = "#FF000033";
-                ctx.fillRect(0, 0, 256, 310);
-                ctx.drawImage(
-                    Base,
-                    Math.floor(Math.random() * LR) - LR,
-                    310 - 54 + Math.floor(Math.random() * LR) - LR,
-                    256 + LR,
-                    54 + LR
-                );
-                GIF.addFrame(ctx);
-                i++;
-            }
-            GIF.finish();
-            return GIF.out.getData();
-        } catch (e) {
-            console.log(e);
         }
     };
 
